@@ -7,7 +7,7 @@ element.innerHTML='Hello MADI';
 
 //move the image when clicked
 
-var img = getElementById('madi');
+var img = document.getElementById('madi');
 img.onclick = function(){
     img.style.marginLeft = '100px';
 };
